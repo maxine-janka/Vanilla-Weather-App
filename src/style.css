@@ -1,6 +1,7 @@
 body {
-    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/534/original/ESNPG9HX0AEqX2P.png?1707450106');
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/539/original/Pixel-Sky.png?1707463085');
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Silkscreen";
 		color: #353234;
 
@@ -14,8 +15,6 @@ header {
 	padding-top: 20px;
   padding-bottom: 30px;
 }
-
-.search-form {}
 
 
 .weather-app-container {
