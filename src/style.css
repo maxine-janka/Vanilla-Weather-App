@@ -16,7 +16,7 @@ header {
 
 .weather-app-container {
   background: #f7e8f0;
-  max-width: 800px;
+  width: 800px;
   margin: 170px auto;
 	padding: 50px 50px;
   border-radius: 10px;
@@ -66,6 +66,7 @@ header {
 
  .weather-data {
 	font-size: 15px;
+	opacity: 0.8;
 	line-height: 26px;
 }
 
@@ -92,6 +93,25 @@ header {
 .humidity-windspeed {
 	color: #F85186;
 	font-size: 16px;
+}
+
+.weather-forcast {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.forecast-day {
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.forecast-temperatures {
+	font-size: 14px;
+  color: #3c2936; 
+}
+
+.min-temperature {
+	opacity: 0.7;
 }
 
 footer {
