@@ -1,73 +1,78 @@
 body {
-    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/539/original/Pixel-Sky.png?1707463085');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Silkscreen";
-		color: #353234;
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/539/original/Pixel-Sky.png?1707463085');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Silkscreen";
+  color: #3c2936;
 
 }
 
 a {
-	color: #BA6B8B;
+  color: #BA6B8B;
 }
 
 header {
-	padding-top: 20px;
   padding-bottom: 30px;
 }
 
-
 .weather-app-container {
-    background: #f7e8f0;
-    max-width: 700px;
-    margin: 200px auto;
-    padding: 50px 100px;
-    border-radius: 10px;
-    box-shadow: 0 20px 40px rgb(152, 137, 181, 0.9);
+  background: #f7e8f0;
+  max-width: 700px;
+  margin: 200px auto;
+	padding: 50px 50px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgb(152, 137, 181, 0.9);
 }
 
+
 .search-form-city-input {
-    background: #f7e1ec;
-    border: 2px solid rgb(53, 50, 52, 0.9);
-    border-radius: 6px;
-    width: 80%;
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #777375; 
-    font-family: "Silkscreen";
+	background: #f7e1ec;
+  border: 2px solid rgb(53, 50, 52, 0.9);
+  border-radius: 6px;
+  width: 80%;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #3c2936; 
+  font-family: "Silkscreen";
 
 }
 
 .search-form-button {
-    background: #F85186;
-    padding: 10px 20px;
-    border: 2px solid rgb(53, 50, 52, 0.9);
-    border-radius: 6px;
-    font-size: 14px;
-    color: #FFFFFF; 
-    font-family: "Silkscreen";
+  background: #F85186;
+  padding: 12px 26px;
+  border: 2px solid rgb(53, 50, 52, 0.9);
+  border-radius: 6px;
+  font-size: 16px;
+	color: #FFFFFF; 
+  font-family: "Silkscreen";
+	
 
 }
 
-.weather-details {
+.weather-details-container {
 	display: flex;
-	justify-content: space-between;
+  justify-content: space-between;
 	margin-top: 10px;
-
 }
+
  main {
-	padding: 30px 0;
+	padding: 0;
  }
 
  .weather-city {
 	margin: 0;
-	font-size: 48px;
-	line-height: 48px;
+	font-size: 54px;
+	line-height: 98px;
+	
  }
+
+ .weather-data {
+	font-size: 16px;
+	line-height: 28px;
+}
 
  .city-temperature-container {
 	display: flex;
-
  }
 
 .city-weather-icon {
@@ -76,31 +81,25 @@ header {
 }
 
 .city-temperature {
-	font-size: 78px;
-	margin-left: 10px;
-
+	font-size: 86px;
+	margin-left: 12px;
 }
 
 .city-temperature-unit {
-	margin-top: 22px;
+	margin-top: 26px;
+	margin-right: 22px;
 	font-size: 26px; 
-}
-
-.weather-data {
-	font-size: 14px;
-	line-height: 20px;
 }
 
 .humidity-windspeed {
 	color: #F85186;
 	font-size: 16px;
-
 }
-footer {
-border-top: 1px solid #f9c5e0;
-padding-top: 20px;
-text-align: center;
-font-size: 12px;
-margin-top: 30px;
 
+footer {
+	border-top: 1px solid #f9c5e0;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
 }
