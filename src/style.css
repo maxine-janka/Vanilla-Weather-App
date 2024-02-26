@@ -16,8 +16,8 @@ header {
 
 .weather-app-container {
   background: #f7e8f0;
-  max-width: 700px;
-  margin: 200px auto;
+  max-width: 800px;
+  margin: 180px auto;
 	padding: 50px 50px;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgb(152, 137, 181, 0.9);
@@ -57,13 +57,13 @@ header {
 
  .weather-city {
 	margin: 0;
-	font-size: 54px;
-	line-height: 98px;
+	font-size: 48px;
+	line-height: 48px;
  }
 
  .weather-data {
-	font-size: 16px;
-	line-height: 28px;
+	font-size: 15px;
+	line-height: 26px;
 }
 
  .city-temperature-container {
@@ -77,7 +77,7 @@ header {
 }
 
 .city-temperature {
-	font-size: 86px;
+	font-size: 78px;
 }
 
 .city-temperature-unit {
@@ -97,4 +97,5 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	margin-top: 30px;
+	line-height: 26px;
 }
