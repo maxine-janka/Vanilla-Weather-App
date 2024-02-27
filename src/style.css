@@ -121,10 +121,9 @@ header {
 }
 
 .weather-forecast-icon {
-	font-size: 30px;
-
+	width: 56px;
+	height: 56px;
 }
-
 .weather-forecast-temperatures {
 	font-size: 14px;
 	margin-top: 7px;
